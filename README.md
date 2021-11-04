@@ -1,4 +1,4 @@
-# urban-sound-classification
+# Urban Sound Classification
 Sw project for the course of Statistical Methods for Machine Learning, Master Degree in Computer Science at Unimi, a.y 20/21 
 
 ## Task
