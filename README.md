@@ -12,12 +12,15 @@ FFNNs performs better than CNNs while MMNN can be a competitive and very interes
 
 ## MMNN
 A multimodal neural network is a neural network composed by different submodels that is able to capture multimodal data, i.e. different type of input, trying to combine them to improve the results for a certain task.
-Below you will find my proposed MMNN Architecture:
-![mmnn-arch](img/mmnn-arch.PNG)
+Below you will find my proposed MMNN Architecture:  
+
+![mmnn-arch](img/mmnn-arch.PNG)  
+
 There is the best CNN I found that is fed with spectograms and the best FFNN that is trained with audio features, then a layer that concatenates the last hidden layer output of the two models and finally a last dense hidden layer with 128 neurons followed by the output layer.  
 
 ## Results
 MMNN, FFNN, CNN's accuracies in function of the number of the epoch:  
-![best_nn_acc](img/best_nn_acc.PNG)
+![best_nn_acc](img/best_nn_acc.PNG)  
+
 MMNN accuracy along the different test folds:
 ![mmnn_acc](img/mmnn_acc.PNG)
