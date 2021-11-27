@@ -20,7 +20,4 @@ There is the best CNN I found that is fed with spectograms and the best FFNN tha
 
 ## Results
 MMNN, FFNN, CNN's accuracies in function of the number of the epoch:  
-![best_nn_acc](img/best_nn_acc.PNG)  
-
-MMNN accuracy along the different test folds:
-![mmnn_acc](img/mmnn_acc.PNG)
+![best_nn_acc](img/best_nn_acc.PNG)
